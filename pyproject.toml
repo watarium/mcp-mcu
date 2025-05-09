@@ -1,0 +1,10 @@
+[project]
+name = "mcp-mcu"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "esptool>=4.8.1",
+    "mcp[cli]>=1.6.0",
+]
